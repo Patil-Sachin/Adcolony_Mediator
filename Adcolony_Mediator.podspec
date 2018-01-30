@@ -13,10 +13,10 @@ s.homepage     = "http://www.vdopia.com/mobile/"
 s.author       = "Team"
 s.platform     = :ios, "11.2"
 s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '3.1.9'}
-s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreBluetooth', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'iAd', 'MapKit', 'MediaPlayer', 'MediaToolbox', 'MobileCoreServices', 'QuartzCore', 'SafariServices', 'Security', 'Social', 'SystemConfiguration', 'UIKit', 'WebKit', 'libz.dylib'
+s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreBluetooth', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'iAd', 'MapKit', 'MediaPlayer', 'MediaToolbox', 'MobileCoreServices', 'QuartzCore', 'SafariServices', 'Security', 'Social', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.vendored_libraries = "libAdcolonyMediator.a"
-s.vendored_frameworks = "AdColony.framework"
 s.dependency 'Chocolate_SDK', '~> 1.0.0'
+s.dependency 'AdColony', '~> 3.2.1'
 s.requires_arc = true
 end
 
